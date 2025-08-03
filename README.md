@@ -157,15 +157,15 @@ Observations:
 
 Pattern-seeking EDA. Try to find some matches manually to guide us towards a good algorithm for general use in a big data situation.
 ```postgresql
-SELECT * FROM all_patients ORDER BY last_name, first_name;
-SELECT * FROM all_patients ORDER BY dob, last_name
-SELECT * FROM all_patients ORDER BY last_name
+SELECT * FROM all_patients ORDER BY last_name, first_name LIMIT 20;
+SELECT * FROM all_patients ORDER BY dob, last_name LIMIT 20;
+SELECT * FROM all_patients ORDER BY ... LIMIT 20;
+...
 ```
 Observations:
 > * First-name mispellings like 'Sara', 'Sarah' are frequent (e.g.EXT0006\INT0025)
 > * Miss-typed year/month/day like EXT0020/INT0086
 > * Last-name changes occur in the case of married women. Lots of 'false' matches could happen in married couples or sibilings with similar ages and the same addresses.
->   * Adding confusion to this last point, there are very similar names that appear to be twins but the 20+ age range does not make sense in this context - it may just be part of the way data was generated for the assignment.
 >   * A 'soft-matches', or family match category could be a secondary consideration
 
 ### 4 Comparison
@@ -176,12 +176,15 @@ Matching fields were created for scoring logic.
 ```postgresql
 similarity_first_name
 similarity_last_name
-match_dob
+similarity_dob
+similarity_phone_number
+similarity_street_number
+similarity_street_name
+exact_match_dob
 match_birthday
 match_sex
-similarity_phone_number
+match_female_sex
 match_street_number
-similarity_street_name 
 ```
 
 ### 5 Matching and Scoring Algorithm 
