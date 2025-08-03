@@ -131,14 +131,20 @@ Create a re-useable and portable environment that will work on any machine:
 
 ### Step 4 Create canonical tables of cleansed, typed data
 
-| Step     | Step                                                                                                                                                                                                             | File                                     |
-|----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------|
-| build.sh | Tiny bash loop to build all SQL files. <br/>Alternative to using`docker-entrypoint-initdb.d`                                                                                                                          | [build.sh](src/build.sh)                 |
-| plpython | Add HCA's provided functions as PL/Python functions                                                                                                                                                              | [000_plpython.sql](src/000_plpython.sql) |
-| Ingest   | Ingest flat files to data warehouse                                                                                                                                                                              | [001_ingest.sql](src/001_ingest.sql)     |
-| Schema   | Create a raw schema `internal`, `external`<br/>Combined view `all_patients` for quick debug/eda<br/>Remove periods<br/>Lower case most fields<br/>Split out address parts, phone area codes, middle name/initial | [002_schema.sql](src/002_schema.sql)     |
+| Step       | Step                                                                                                                                                                                                             | File                                         |
+|------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------|
+| build.sh   | Tiny bash loop to build all SQL files. <br/>Alternative to using`docker-entrypoint-initdb.d`                                                                                                                     | [build.sh](src/build.sh)                     |
+| plpython   | Add HCA's provided functions as PL/Python functions                                                                                                                                                              | [000_plpython.sql](src/000_plpython.sql)     |
+| Ingest     | Ingest flat files to data warehouse                                                                                                                                                                              | [001_ingest.sql](src/001_ingest.sql)         |
+| Schema     | Create a raw schema `internal`, `external`<br/>Combined view `all_patients` for quick debug/eda<br/>Remove periods<br/>Lower case most fields<br/>Split out address parts, phone area codes, middle name/initial | [002_schema.sql](src/002_schema.sql)         |
+| Comparison | Create a cross-joined matrix comparing relevant patient attributes                                                                                                                                  | [003_comparison.sql](src/003_comparison.sql) |
+| Scoring    | Apply scoring logic. Create a `matches` view<br/>                                                                                                                                                        | [004_scoring.sql](src/004_scoring.sql)       |
 
-<img height="300" src="docs/schema_fields.png" width="325"/>
+
+**Canonical fields**
+
+<img height="300" src="docs/schema_fields.png" width="325"/>  
+
 
 
 ### Step 5 Brief EDA on canonicalized tables
