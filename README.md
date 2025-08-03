@@ -203,19 +203,19 @@ match_street_number
 
 This is a business question - we have to decide what tolerance we have for data-entry errors.
 
-| Information        | Importance | Notes                                                                                                                                             |
-|--------------------|------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
-| First name         | High       |                                                                                                                                                   |
-| Last name          | High       | Married and sibling patients can generate false positives.                                                                                        |
-| Date of Birth      | High       | Given the span of dates, a date-of-birth collision is a dead giveaway unless the data was intentionally faked to caused to cause collisions.      |
-| Sex                | High       | We will assume female last names change frequently. First named changes are extremely rare in the real world, so we will not focus much on those. |
-| Area Code          | Low        | Small sample of area codes, phones numbers change often are unreliable                                                                            |
-| Phone Number       | High       | An exact phone number match is valuable                                                                                                           |
-| Street Number      | Low        | Street numbers help identify married couples, but not individuals                                                                                 |
-| Street Name        | Low        | Combine with street numbers                                                                                                                       |
-| Street Unit Number | Low        | Not statistically likely any patient in this set lives in the same apartment complex unless this data was intentionally generated with traps      |
-| City               | Low        | Small sample of nearby cities. Not precise as an attribute.                                                                                       |
-| Zip code           | Low        | Low precision compared to street number. Only includes Austin area.                                                                               |
+| Information        | Importance | Notes                                                                                                                       |
+|--------------------|------------|-----------------------------------------------------------------------------------------------------------------------------|
+| First name         | High       |                                                                                                                             |
+| Last name          | High       | Married and sibling patients can generate false positives                                                                   |
+| Date of Birth      | High       | Given the span of dates, a date-of-birth collision is a dead giveaway unless the data was intentionally faked to caused to cause collisions |
+| Sex                | High       | We will assume female last names change frequently. First name changes are extremely rare|
+| Area Code          | Low        | Small sample of area codes, phones numbers change often are unreliable                                                      |
+| Phone Number       | High       | An exact phone number match is valuable                                                                                     |
+| Street Number      | Low        | Street numbers help identify married couples, but not individuals                                                           |
+| Street Name        | Low        | Combine with street numbers                                                                                                 |
+| Street Unit Number | Low        | Not statistically likely any patient in this set lives in the same apartment complex unless this data was intentionally generated with traps |
+| City               | Low        | Small sample of nearby cities. Not precise as an attribute                                                                  |
+| Zip code           | Low        | Low precision compared to street number. Only includes Austin area                                                          |
 
 **Why design it this way?**
 
