@@ -26,7 +26,9 @@
 
 ## Overview
 
-This project builds a mini data warehouse, ingests data, transforms and performs matching/scoring.
+The project [Instructions](docs/instructions.pdf) lay out the goals and purpose of this assignment.
+
+This repository code builds a mini data warehouse, ingests data, transforms and performs matching/scoring.
 
 
 |                    |                               |
@@ -251,7 +253,5 @@ To help calibrate the assignment
 |     1 hour | Coding `SQL`                                        |
 |     1 hour | Viewing, sorting, thinking about the data           |
 |    2 hours | Coding `yaml`, `bash`, `PL/Python` troubleshooting  |
-
-**AI Code time savings**: I used Gemini to help with the last stages of developing the [regex capture string for street name](https://github.com/tyler-atx/hca_ticket/blob/main/src/002_schema.sql#L29). Other than that, I prefer to code manually - I write correct SQL in Vim much faster than I could with AI assistance.
 
 _With a managed data warehouse already set up, this project could be completed in 1-2 hours._
