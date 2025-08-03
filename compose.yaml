@@ -13,7 +13,7 @@ services:
       - command: ["sh", "-c", '/src/build.sh']
 #   Never add environmental variables like this for a project with real data
     environment:
-      POSTGRES_PASSWORD: localonly
+      POSTGRES_PASSWORD: donotuse
       POSTGRES_USER: hca_ticket
       POSTGRES_DB: hca_ticket
 #   This is an example of how to add local env secrets in a project with real data
