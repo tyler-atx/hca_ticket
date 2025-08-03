@@ -5,10 +5,10 @@ CREATE TABLE scoring AS (
     WITH vars AS (
 
         SELECT
-            0.5 AS MATCH_THRESHOLD
-            , 0.75 AS PHONE_MATCH_THRESHOLD
-            , 1 AS DUAL_NAME_THRESHOLD
-            , 0.75 AS DOB_MATCH_THRESHOLD
+            0.5                                                             AS MATCH_THRESHOLD
+            , 0.75                                                          AS PHONE_MATCH_THRESHOLD
+            , 1                                                             AS DUAL_NAME_THRESHOLD
+            , 0.75                                                          AS DOB_MATCH_THRESHOLD
 
     ), matches_added AS (
 
