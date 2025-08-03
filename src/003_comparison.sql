@@ -47,7 +47,13 @@ CREATE TABLE comparison AS (
                    )
               END                                   AS similarity_phone_number
         , external.address_full                     AS external_address_full
+        , external.street_number                    AS external_street_number
+        , external.street_name                      AS external_street_name
+        , external.street_unit_number               AS external_street_unit_number
         , internal.address_full                     AS internal_address_full
+        , internal.street_number                    AS internal_street_number
+        , internal.street_name                      AS internal_street_name
+        , internal.street_unit_number               AS internal_street_unit_number
         , internal.street_number =
             external.street_number                  AS match_street_number
         , hca_similarity_ratio(

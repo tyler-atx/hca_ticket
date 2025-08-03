@@ -92,7 +92,13 @@ CREATE VIEW matches AS (
         , internal_phone_number                                             AS internal_phone_number
         , similarity_phone_number                                           AS similarity_phone_number
         , external_address_full                                             AS external_address_full
+        , external_street_name                                              AS external_street_name
+        , external_street_number                                            AS external_street_number
+        , external_street_unit_number                                       AS external_street_unit_number
         , internal_address_full                                             AS internal_address_full
+        , internal_street_name                                              AS internal_street_name
+        , internal_street_number                                            AS internal_street_number
+        , internal_street_unit_number                                       AS internal_street_unit_number
         , similarity_street_name                                            AS similarity_street_name
     FROM scoring
     WHERE match_type IS NOT NULL
