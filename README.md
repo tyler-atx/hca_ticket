@@ -237,6 +237,7 @@ Request colleagues to examine the documentation and code, iterate on their feedb
 1. The ingestion step would be incrementalized
 2. It would leverage a pre-existing data warehouse
 3. Column tests (e.g. `not null`, `max-min range`, `unique`) would be added
+4. An out-of-the-box solution for matching would be used that has nicknames, homophones, etc
 
 ----
 ## Time spent
