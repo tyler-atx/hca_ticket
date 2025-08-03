@@ -108,7 +108,7 @@ _This step was not completed. It would be my first step in a real-world ticket_.
 * Short sync with **Data Team** about PII
   * The PII in this dataset almost certainly violates our company security policies in a flat file, do we have a process for securely transmitting/receiving and storing this data?
 
-
+-----
 
 ### 2 "Look at the data" step
 
@@ -124,11 +124,15 @@ Observations:
 > * All patients appear to be in the greater Austin area
 > * Some middle names exist and have periods
 
+-----
+
 ### 3 Set up the environment
 
 Create a re-useable and portable environment that will work on any machine:
 > This environment will include two services, the standard postgres docker hub [image](https://hub.docker.com/_/postgres) and docker administration service.
 > A mounted volume bound to the `/src` directory will contain code to build the tables.
+
+-----
 
 ### 4 Create canonical tables of cleansed, typed data
 
@@ -140,6 +144,8 @@ Create a re-useable and portable environment that will work on any machine:
 | Schema   | Create a raw schema `internal`, `external`<br/>Combined view `all_patients` for quick debug/eda<br/>Remove periods<br/>Lower case most fields<br/>Split out address parts, phone area codes, middle name/initial | [002_schema.sql](src/002_schema.sql)     |
 
 <img height="300" src="docs/schema_fields.png" width="325"/>
+
+-----
 
 ### 5 Brief EDA on canonicalized tables
 
@@ -186,6 +192,7 @@ match_sex
 match_female_sex
 match_street_number
 ```
+-----
 
 ### 5 Matching and Scoring Algorithm 
 
@@ -218,6 +225,7 @@ Details on the various types of 'matching choices' are in the [Scoring table and
 
 **Output**: The output of the final `matches` view is automatically written into `/data`
 
+----
 
 ### 6 Code Review (skipped)
 
@@ -225,12 +233,15 @@ _This step was skipped only because this is an evaluation of my work. In a real 
 
 Have a colleague(s) examine the documentation and code. Then, address their feedback and iterate until the ticket is ready for stakeholders to review.
 
+----
+
 ## Considerations on productionizing this project
 
 1. The ingestion step would be incrementalized
 2. It would be incorporated into a pre-existing data warehouse under data governance controls, versioning, and metadata metrics tracking
 3. Generic data tests (`not null`, `max-min range`, `unique`, format enforcement, etc) would be added to each column for referential integrity and data format
 
+----
 ## Time spent
 
 To help calibrate the assignment
