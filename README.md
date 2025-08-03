@@ -174,7 +174,7 @@ Observations:
 > * Last-name changes occur in the case of married women. Lots of 'false' matches could happen in married couples or sibilings with similar ages and the same addresses.
 >   * A 'soft-matches', or family match category could be a secondary consideration
 
-### 4 Comparison
+### 6 Comparison
 
 [Comparison](src/003_comparison.sql) table created to score against.
   
@@ -194,7 +194,7 @@ match_street_number
 ```
 -----
 
-### 5 Matching and Scoring Algorithm 
+### 7 Matching and Scoring Algorithm 
 
 
 This is a business question - we have to decide what tolerance we have for data-entry errors (as any entry could potentially be a an error or real value).
@@ -227,7 +227,7 @@ Details on the various types of 'matching choices' are in the [Scoring table and
 
 ----
 
-### 6 Code Review (skipped)
+### 8 Code Review (skipped)
 
 _This step was skipped only because this is an evaluation of my work. In a real ticket this step would be critical._
 
