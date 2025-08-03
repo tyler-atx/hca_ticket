@@ -1,20 +1,20 @@
 externalpatientid,internalpatientid,match_type,external_first_name,internal_first_name,similarity_first_name,external_last_name,internal_last_name,similarity_last_name,external_dob,internal_dob,similarity_dob,external_birthday,internal_birthday,external_sex,internal_sex,match_female_sex,external_phone_number,internal_phone_number,similarity_phone_number,external_address_full,internal_address_full,similarity_street_name
 EXT0006,INT0025,clean_match_dob,sara,sarah,0.8,avila,avila,1,2002-02-20,2002-02-20,1,02-20,02-20,F,F,t,805-4731,805-4731,1,262 william shoal,262 william shoal,1
-EXT0009,INT0029,clean_match_dob,justin,justin,1,baldwinn,baldwin,1,1965-11-02,1965-11-02,1,11-02,11-02,M,M,f,,834-1452,0,531 lisa common,531 lisa common,1
-EXT0021,INT0083,clean_match_dob,jose,jose,1,brown,brown,0.8,1945-09-22,1945-09-22,1,09-22,09-22,M,M,f,381-1620,381-1620,1,821 marshall isle,821 marshall island apt 702,0.8
-EXT0020,INT0086,clean_match_dob,jason,jason,1,brown,brown,0.29,1988-10-23,1968-10-23,0.88,10-23,10-23,M,M,f,475-8829,580-3979,0.25,457 sam houston st,19457 samuel estate apt 389,0.29
-EXT0024,INT0096,clean_match_dob,randall,randall,1,bush,bush,0.15,2001-12-26,2001-12-26,1,12-26,12-26,M,M,f,480-3051,480-3051,1,305 w 45 st,916 wilson corner apt 151,0.15
-EXT0025,INT0104,clean_match_dob,david,david,1,campos,campos,0.08,1964-02-25,1964-02-25,1,02-25,02-25,M,M,f,372-8278,372-8278,1,34056 matthew glens,1830 lori road,0.08
-EXT0030,INT0111,clean_match_dob,james,james,1,carteer,carter,1,1958-08-26,1958-08-26,1,08-26,08-26,M,M,f,528-9691,528-9691,1,35034 huber shore suite 097,35034 huber shore suite 097,1
+EXT0009,INT0029,clean_match_dob,justin,justin,1,baldwinn,baldwin,0.88,1965-11-02,1965-11-02,1,11-02,11-02,M,M,f,,834-1452,0,531 lisa common,531 lisa common,1
+EXT0021,INT0083,clean_match_dob,jose,jose,1,brown,brown,1,1945-09-22,1945-09-22,1,09-22,09-22,M,M,f,381-1620,381-1620,1,821 marshall isle,821 marshall island apt 702,0.8
+EXT0020,INT0086,clean_match_dob,jason,jason,1,brown,brown,1,1988-10-23,1968-10-23,0.88,10-23,10-23,M,M,f,475-8829,580-3979,0.25,457 sam houston st,19457 samuel estate apt 389,0.29
+EXT0024,INT0096,clean_match_dob,randall,randall,1,bush,bush,1,2001-12-26,2001-12-26,1,12-26,12-26,M,M,f,480-3051,480-3051,1,305 w 45 st,916 wilson corner apt 151,0.15
+EXT0025,INT0104,clean_match_dob,david,david,1,campos,campos,1,1964-02-25,1964-02-25,1,02-25,02-25,M,M,f,372-8278,372-8278,1,34056 matthew glens,1830 lori road,0.08
+EXT0030,INT0111,clean_match_dob,james,james,1,carteer,carter,0.86,1958-08-26,1958-08-26,1,08-26,08-26,M,M,f,528-9691,528-9691,1,35034 huber shore suite 097,35034 huber shore suite 097,1
 EXT0031,INT0119,dual_match_dob,jaclynn,jacqueline,0.5,chase,chase,1,1947-02-22,1947-02-22,1,02-22,02-22,F,F,t,870-9062,870-9064,0.88,161 javier shores,161 javier shores suite 917,1
 EXT0034,INT0135,clean_match_dob,adam,adam,1,collins,collins,1,1976-03-13,1976-03-13,1,03-13,03-13,M,M,f,667-7415,727-9455,0.5,7983 miles cliff,7983 miles cliff apt 074,1
 EXT0039,INT0145,clean_match_dob,steven,steven,1,cooper,cooper,1,1957-09-26,1957-09-26,1,09-26,09-26,M,M,f,967-3415,649-7384,0.12,4611 wilson cliffs,4611 wilson cliffs apt 350,1
-EXT0107,INT0149,clean_match_dob,sandra,sandra,1,martinez,cox,1,1939-06-19,1939-06-19,1,06-19,06-19,F,F,t,879-3643,879-3643,1,7394 fox port suite 373,7394 fox port suite 373,1
+EXT0107,INT0149,clean_match_dob,sandra,sandra,1,martinez,cox,0,1939-06-19,1939-06-19,1,06-19,06-19,F,F,t,879-3643,879-3643,1,7394 fox port suite 373,7394 fox port suite 373,1
 EXT0041,INT0151,clean_match_dob,erik,eric,0.75,crawford,crawford,1,1943-04-06,1943-04-06,1,04-06,04-06,M,M,f,312-7974,312-7974,1,3629 gray field,3629 gray field,1
-EXT0042,INT0152,dual_match_dob,nathan,natalie,0.43,crawford,crawford,0.25,1939-05-03,1939-05-03,1,05-03,05-03,M,F,f,644-8132,583-8123,0.38,100 miles street,201 mark groves apt 074,0.25
+EXT0042,INT0152,dual_match_dob,nathan,natalie,0.43,crawford,crawford,1,1939-05-03,1939-05-03,1,05-03,05-03,M,F,f,644-8132,583-8123,0.38,100 miles street,201 mark groves apt 074,0.25
 EXT0050,INT0199,clean_match_dob,micheal,michael,0.71,evans,evans,1,1979-01-26,1979-01-26,1,01-26,01-26,M,M,f,463-4554,463-4554,1,3078 lisa forks,3078 lisa forks,1
 EXT0059,INT0223,clean_match_dob,allen,alan,0.6,fry,fry,1,1998-04-06,1998-04-06,1,04-06,04-06,M,M,f,935-9135,935-9135,1,14584 david ville,14584 david ville,1
-EXT0060,INT0238,clean_match_dob,michael,michael,1,garcia,garcia,0.25,1966-02-02,1966-02-02,1,02-02,02-02,M,M,f,206-5890,206-5890,1,874 grande st,473 daniel locks,0.25
+EXT0060,INT0238,clean_match_dob,michael,michael,1,garcia,garcia,1,1966-02-02,1966-02-02,1,02-02,02-02,M,M,f,206-5890,206-5890,1,874 grande st,473 daniel locks,0.25
 EXT0064,INT0246,clean_match_dob,jessica,jessica,1,gomez,gomez,1,1947-01-12,1947-01-12,1,01-12,01-12,F,F,t,,614-6649,0,596 jason ranch,596 jason ranch apt 726,1
 EXT0065,INT0248,clean_match_phone_number,jenny,jonathon,0.25,gonzales,gonzales,1,1954-02-11,1955-01-11,0.75,02-11,01-11,F,M,f,576-8012,576-8012,1,0527 robyn valleys apt 838,0527 robyn valleys apt 838,1
 EXT0102,INT0255,clean_match_dob,anne,anne,1,li,li,1,1983-12-31,1983-12-31,1,12-31,12-31,F,F,t,694-8999,384-1210,0.25,5082 tyler cliff,05082 tyler cliff suite 831,1
@@ -23,27 +23,27 @@ EXT0070,INT0281,clean_match_dob,michael,michael,1,hanson,hanson,1,1979-02-01,197
 EXT0073,INT0288,clean_match_dob,jonathon,jonathon,1,hart,hart,1,1945-08-09,1945-08-09,1,08-09,08-09,M,M,f,694-3511,395-3526,0.5,493 kelsey corners,493 kelsey corners apt 202,1
 EXT0080,INT0304,clean_match_dob,eric,eric,1,herrera,herrera,1,1985-12-13,1985-12-13,1,12-13,12-13,M,M,f,438-1569,438-1569,1,511 merritt underpass,511 merritt underpass,1
 EXT0082,INT0315,dual_match_dob,rod,rodney,0.5,holt,holt,1,1992-03-07,1992-03-07,1,03-07,03-07,M,M,f,853-3204,853-3204,1,6550 boyer skyway suite 468,6550 boyer skyway suite 468,1
-EXT0090,INT0369,clean_match_dob,richard,richard,1,james,jones,0.8,1961-08-08,1961-08-08,1,08-08,08-08,M,M,f,340-5234,340-5188,0.62,582 grape port,713 grant port,0.8
-EXT0101,INT0399,clean_match_dob,nathan,nathan,1,le,le,0.82,1944-10-15,1944-10-15,1,10-15,10-15,M,M,f,,592-6814,0,739 rogers ln,739 rogers lane apt 453,0.82
+EXT0090,INT0369,clean_match_dob,richard,richard,1,james,jones,0.6,1961-08-08,1961-08-08,1,08-08,08-08,M,M,f,340-5234,340-5188,0.62,582 grape port,713 grant port,0.8
+EXT0101,INT0399,clean_match_dob,nathan,nathan,1,le,le,1,1944-10-15,1944-10-15,1,10-15,10-15,M,M,f,,592-6814,0,739 rogers ln,739 rogers lane apt 453,0.82
 EXT0103,INT0407,clean_match_dob,peter,peter,1,lopez,lopez,1,1988-10-07,1988-10-07,1,10-07,10-07,M,M,f,376-9852,376-9852,1,78860 white cliffs,78860 white cliffs suite 133,1
 EXT0105,INT0423,clean_match_dob,rich,richard,0.57,mann,mann,1,1972-02-03,1972-02-03,1,02-03,02-03,M,M,f,271-5675,271-5675,1,701 beasley dam,701 beasley dam,1
 EXT0106,INT0435,dual_match_dob,alex,alexander,0.44,martinez,martinez,1,1967-03-10,1967-03-10,1,03-10,03-10,M,M,f,285-3261,285-3261,1,2806 tate stream,2806 tate stream,1
 EXT0111,INT0458,clean_match_dob,samuel,samuel,1,mcintyre,mcintyre,1,1945-03-22,1945-03-22,1,03-22,03-22,M,M,f,,793-3955,0,794 kimberly extensions,794 kimberly extensions apt 619,1
 EXT0116,INT0471,clean_match_dob,brian,brian,1,miller,miller,1,1989-11-07,1989-11-07,1,11-07,11-07,M,M,f,671-6250,671-6250,1,06196 adam street,06196 adam street,1
-EXT0122,INT0491,clean_match_dob,jeremy,jeremy,1,more,moore,1,1978-06-12,1978-06-12,1,06-12,06-12,M,M,f,,889-7250,0,0606 wiggins wall,0606 wiggins wall,1
+EXT0122,INT0491,clean_match_dob,jeremy,jeremy,1,more,moore,0.8,1978-06-12,1978-06-12,1,06-12,06-12,M,M,f,,889-7250,0,0606 wiggins wall,0606 wiggins wall,1
 EXT0124,INT0497,clean_match_dob,amanda,amanda,1,morgan,morgan,1,1950-09-12,1950-09-12,1,09-12,09-12,F,F,t,475-2919,475-2919,1,588 matthew cove,588 matthew cove,1
 EXT0125,INT0500,dual_match_dob,dick,richard,0.29,morgan,morgan,1,1977-10-21,1977-10-21,1,10-21,10-21,M,M,f,678-9845,330-7218,0.12,4762 martinez fork,4762 martinez fork apt 402,1
-EXT0133,INT0523,clean_match_dob,julie,julie,1,newman,newman,0.56,1946-01-25,1946-01-25,1,01-25,01-25,F,F,t,676-9936,676-9936,1,12844 sarah via street,12844 sarah via,0.56
-EXT0144,INT0561,clean_match_dob,aaron,aaron,1,peters,peterson,1,1964-03-17,1964-03-17,1,03-17,03-17,M,M,f,,476-5384,0,79999 mack circle,79999 mack circle,1
-EXT0148,INT0566,clean_match_dob,george,george,1,philllips,phillips,1,1975-03-05,1975-03-05,1,03-05,03-05,M,M,f,896-3341,896-3341,1,212 sydney plaza,212 sydney plaza,1
+EXT0133,INT0523,clean_match_dob,julie,julie,1,newman,newman,1,1946-01-25,1946-01-25,1,01-25,01-25,F,F,t,676-9936,676-9936,1,12844 sarah via street,12844 sarah via,0.56
+EXT0144,INT0561,clean_match_dob,aaron,aaron,1,peters,peterson,0.75,1964-03-17,1964-03-17,1,03-17,03-17,M,M,f,,476-5384,0,79999 mack circle,79999 mack circle,1
+EXT0148,INT0566,clean_match_dob,george,george,1,philllips,phillips,0.89,1975-03-05,1975-03-05,1,03-05,03-05,M,M,f,896-3341,896-3341,1,212 sydney plaza,212 sydney plaza,1
 EXT0161,INT0635,clean_match_dob,josh,joshua,0.67,ruiz,ruiz,1,1948-12-08,1948-12-08,1,12-08,12-08,M,M,f,694-1265,622-2048,0.25,1753 hall divide,1753 hall divide suite 677,1
-EXT0165,INT0659,dual_match_dob,sam,samantha,0.38,schwartz,schwartz,0.29,1963-08-23,1963-07-23,0.88,08-23,07-23,M,F,f,680-2828,680-2870,0.75,836 crescent street,836 johnston crescent apt 967,0.29
-EXT0170,INT0687,dual_match_dob,nickie,nicholas,0.38,smith,smith,0.62,1962-02-17,1962-02-17,1,02-17,02-17,F,M,f,754-4729,754-1665,0.5,7410 four corners,78410 evans corners,0.62
-EXT0171,INT0689,clean_match_dob,michele,michael,0.71,smith,smith,0.17,1990-01-10,1990-01-10,1,01-10,01-10,F,M,f,573-9877,223-5665,0.25,5390 vista pass,539 taylor vista,0.17
-EXT0175,INT0703,clean_match_dob,melissa,melissa,1,starck,stark,1,2004-12-13,2004-12-13,1,12-13,12-13,F,F,t,477-2696,477-2696,1,09436 paul ports apt 822,09436 paul ports apt 822,1
-EXT0091,INT0752,clean_match_dob,nancy,nancy,1,johns,walker,1,1991-06-18,1991-06-18,1,06-18,06-18,F,F,t,342-4493,342-4493,1,6658 christina underpass,6658 christina underpass,1
+EXT0165,INT0659,dual_match_dob,sam,samantha,0.38,schwartz,schwartz,1,1963-08-23,1963-07-23,0.88,08-23,07-23,M,F,f,680-2828,680-2870,0.75,836 crescent street,836 johnston crescent apt 967,0.29
+EXT0170,INT0687,dual_match_dob,nickie,nicholas,0.38,smith,smith,1,1962-02-17,1962-02-17,1,02-17,02-17,F,M,f,754-4729,754-1665,0.5,7410 four corners,78410 evans corners,0.62
+EXT0171,INT0689,clean_match_dob,michele,michael,0.71,smith,smith,1,1990-01-10,1990-01-10,1,01-10,01-10,F,M,f,573-9877,223-5665,0.25,5390 vista pass,539 taylor vista,0.17
+EXT0175,INT0703,clean_match_dob,melissa,melissa,1,starck,stark,0.83,2004-12-13,2004-12-13,1,12-13,12-13,F,F,t,477-2696,477-2696,1,09436 paul ports apt 822,09436 paul ports apt 822,1
+EXT0091,INT0752,clean_match_dob,nancy,nancy,1,johns,walker,0,1991-06-18,1991-06-18,1,06-18,06-18,F,F,t,342-4493,342-4493,1,6658 christina underpass,6658 christina underpass,1
 EXT0189,INT0768,clean_match_dob,michelle,michele,0.88,warren,warren,1,1974-06-15,1974-06-15,1,06-15,06-15,F,F,t,974-4859,974-4859,1,50 choi glens,050 choi glens apt 307,1
-EXT0197,INT0802,dual_match_dob,sam,samuel,0.5,williams,williams,0.92,1955-10-13,1955-10-13,1,10-13,10-13,F,M,f,318-3030,318-3068,0.75,312 cross courts,34612 gross courts suite 415,0.92
-EXT0203,INT0830,clean_match_dob,regina,regina,1,woods,woodward,0.75,1948-01-07,1948-01-07,1,01-07,01-07,F,F,t,652-0008,652-4308,0.75,6136 money green,61736 monica green,0.75
-EXT0157,INT0832,clean_match_dob,linda,linda,1,right,wright,1,1969-07-10,1969-07-10,1,07-10,07-10,F,F,t,,253-9122,0,50040 allen port,50040 allen port,1
+EXT0197,INT0802,dual_match_dob,sam,samuel,0.5,williams,williams,1,1955-10-13,1955-10-13,1,10-13,10-13,F,M,f,318-3030,318-3068,0.75,312 cross courts,34612 gross courts suite 415,0.92
+EXT0203,INT0830,clean_match_dob,regina,regina,1,woods,woodward,0.5,1948-01-07,1948-01-07,1,01-07,01-07,F,F,t,652-0008,652-4308,0.75,6136 money green,61736 monica green,0.75
+EXT0157,INT0832,clean_match_dob,linda,linda,1,right,wright,0.83,1969-07-10,1969-07-10,1,07-10,07-10,F,F,t,,253-9122,0,50040 allen port,50040 allen port,1
 EXT0207,INT0842,clean_match_dob,chris,christine,0.56,young,young,1,1967-03-15,1967-03-15,1,03-15,03-15,F,F,t,557-3967,557-3967,1,9829 sparks corner,9829 sparks corner apt 515,1

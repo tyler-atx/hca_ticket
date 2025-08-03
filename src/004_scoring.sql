@@ -79,7 +79,7 @@ CREATE VIEW matches AS (
         , similarity_first_name                                             AS similarity_first_name
         , external_last_name                                                AS external_last_name
         , internal_last_name                                                AS internal_last_name
-        , similarity_street_name                                            AS similarity_last_name
+        , similarity_last_name                                              AS similarity_last_name
         , external_dob                                                      AS external_dob
         , internal_dob                                                      AS internal_dob
         , similarity_dob                                                    AS similarity_dob
