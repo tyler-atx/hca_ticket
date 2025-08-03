@@ -16,14 +16,19 @@ CREATE TABLE scoring AS (
             *
             , (similarity_first_name >
                (SELECT MATCH_THRESHOLD FROM vars))                          AS match_first_name
+            , (similarity_first_name = 1)                                   AS exact_match_first_name
             , (similarity_last_name >
                (SELECT MATCH_THRESHOLD FROM vars))                          AS match_last_name
+            , (similarity_last_name = 1)                                    AS exact_match_last_name
             , (similarity_phone_number >
                (SELECT PHONE_MATCH_THRESHOLD FROM vars))                    AS match_phone_number
+            , (similarity_phone_number = 1)                                 AS exact_match_phone_number
             , (similarity_first_name + similarity_last_name) >
                (SELECT DUAL_NAME_THRESHOLD FROM vars)                       AS match_both_names
+            , (similarity_first_name + similarity_last_name) = 2            AS exact_match_both_names
             , similarity_street_name >
                (SELECT MATCH_THRESHOLD FROM vars)                           AS match_street_name
+            , similarity_street_name = 1                                    AS exact_match_street_name
             , (similarity_phone_number
                 + similarity_street_name) >
               1.5                                                           AS match_supporting_information
@@ -35,33 +40,48 @@ CREATE TABLE scoring AS (
 
     SELECT
         CASE
+            WHEN exact_match_first_name
+                AND exact_match_dob
+                AND (exact_match_last_name OR match_female_sex)
+                THEN 'exact_match_dob'
             WHEN match_first_name
                 AND match_dob
                 AND (match_last_name OR match_female_sex)
-            THEN 'clean_match_dob'
+                THEN 'match_dob'
+            WHEN exact_match_both_names
+                AND exact_match_dob
+                AND (exact_match_last_name OR match_female_sex)
+                THEN 'exact_dual_match_dob'
             WHEN match_both_names
                 AND match_dob
                 AND (match_last_name OR match_female_sex)
                 THEN 'dual_match_dob'
             /* SAVED to discuss alternate paths that did not work */
 --             WHEN match_first_name
---                 AND match_birthday
+--                 AND exact_match_birthday
 --                 AND (match_last_name OR match_female_sex)
---                 THEN 'clean_match_birthday'
+--                 THEN 'match_birthday'
+            WHEN exact_match_both_names
+                AND exact_match_birthday
+                AND (exact_match_last_name OR match_female_sex)
+                THEN 'exact_dual_match_birthday'
             WHEN match_both_names
-                AND match_birthday
+                AND exact_match_birthday
                 AND (match_last_name OR match_female_sex)
                 THEN 'dual_match_birthday'
+            WHEN (exact_match_first_name OR exact_match_last_name)
+                AND exact_match_phone_number
+                THEN 'exact_match_phone_number'
             WHEN (match_first_name OR match_last_name)
                 AND match_phone_number
-                THEN 'clean_match_phone_number'
+                THEN 'match_phone_number'
             /* SAVED to discuss alternate paths that did not work */
 --             WHEN (match_first_name OR match_last_name)
---                 AND match_sex
+--                 AND exact_match_sex
 --                 AND match_street_name
 --                 THEN 'dual_match_street_name'
               /* Difficult to find good matches with street names */
-            WHEN (match_supporting_information) AND match_sex
+            WHEN (match_supporting_information) AND exact_match_sex
                 THEN 'match_supporting_information'
             END                                                                 AS match_type
         , *

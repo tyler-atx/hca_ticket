@@ -30,10 +30,10 @@ CREATE TABLE comparison AS (
         , external.dob = internal.dob               AS exact_match_dob
         , external.birthday                         AS external_birthday
         , internal.birthday                         AS internal_birthday
-        , external.birthday = internal.birthday     AS match_birthday
+        , external.birthday = internal.birthday     AS exact_match_birthday
         , external.sex                              AS external_sex
         , internal.sex                              AS internal_sex
-        , external.sex = internal.sex               AS match_sex
+        , external.sex = internal.sex               AS exact_match_sex
         , external.sex = 'F' AND internal.sex = 'F' AS match_female_sex
         , external.phone_number                     AS external_phone_number
         , internal.phone_number                     AS internal_phone_number
