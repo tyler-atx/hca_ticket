@@ -43,6 +43,7 @@ CREATE TABLE scoring AS (
                 AND match_dob
                 AND (match_last_name OR match_female_sex)
                 THEN 'dual_match_dob'
+            /* SAVED to discuss alternate paths that did not work */
 --             WHEN match_first_name
 --                 AND match_birthday
 --                 AND (match_last_name OR match_female_sex)
@@ -54,6 +55,7 @@ CREATE TABLE scoring AS (
             WHEN (match_first_name OR match_last_name)
                 AND match_phone_number
                 THEN 'clean_match_phone_number'
+            /* SAVED to discuss alternate paths that did not work */
 --             WHEN (match_first_name OR match_last_name)
 --                 AND match_sex
 --                 AND match_street_name
