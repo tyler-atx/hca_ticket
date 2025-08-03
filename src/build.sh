@@ -1,0 +1,1 @@
+for f in /src/*.sql; do psql -U "$POSTGRES_USER" -d "$POSTGRES_DB" -f "$f"; done;

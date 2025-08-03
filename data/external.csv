@@ -1,0 +1,210 @@
+ExternalPatientId,FirstName,LastName,DOB,Sex,PhoneNumber,Address,City,ZipCode
+EXT0001,Mackenzie C.,Abbott,30-Jul-2001,F,379-8376,366 Thomas Junctions,Cedar Park,78613
+EXT0002,Chad James,Adams,12-Feb-2002,M,361-776-3892,5302 Rivera Junction Apt. 194,Austin,73301
+EXT0003,Michael T.,Allen,21-Jul-1982,M,325-257-9296,748 Thomas Route Apt. 933,Buda,78610
+EXT0004,Lindsay,Anderson,04-Jun-1995,F,311-8007,55611 Mckinney Harbors Suite 642,Hutto,78634
+EXT0005,Timothy,Anderson,20-May-2000,M,254-636-1610,26 Barry Ferry Apt. 159,Cedar Park,78613
+EXT0006,Sara,Avila,20-Feb-2002,F,979-805-4731,262 William Shoal,Georgetown,78626
+EXT0007,Kathy Jean,Baird,06-Jun-1982,F,979-724-1588,223 Alexandra Points Apt. 556,Pflugerville,78660
+EXT0008,Tracy,Baker,24-Feb-1978,M,512-991-2363,6632 Thompson Course,Buda,78610
+EXT0009,Justin,Baldwinn,02-Nov-1965,M,,531 Lisa Common,Cedar Park,78613
+EXT0010,Ronald,Barker,20-Jan-1945,M,,37443 Jason Plaza,Kyle,78640
+EXT0011,James Brian,Beltran,19-Mar-1954,M,737-927-5953,14666 Michelle Road,Round Rock,78664
+EXT0012,Steve C,Bentley,25-Feb-2002,M,254-961-8099,688 Bishop Mills,Kyle,78640
+EXT0013,Mallory,Blevins,02-Dec-1978,F,737-974-5099,24707 Destiny Field Suite 733,Cedar Park,78613
+EXT0014,Chris,Boys,12-Aug-1975,M,361-988-5003,984 Karls St,Manor,78653
+EXT0015,David,Brady,09-Mar-1981,M,979-978-9386,53179 Wood Passage Apt. 520,Leander,78641
+EXT0016,Bobby Thomas,Brewer,11-Jul-1941,M,512-249-7123,9608 Riddle Estates Suite 312,Pflugerville,78660
+EXT0017,Rebecca,Brown,04-Aug-1982,F,512-684-7057,46407 Samantha Via,Hutto,78634
+EXT0018,Anna Emma,Brown,30-Dec-1957,F,325-605-8889,82861 Nathan Point,Round Rock,78664
+EXT0019,Anne,Brown,07-Jan-1999,F,361-469-6353,02511 Alexis Vista,Kyle,78640
+EXT0020,Jason,Brown,23-Oct-1988,M,512-475-8829,457 Sam Houston St.,Cedar Park,78613
+EXT0021,Jose,Brown,22-Sep-1945,M,830-381-1620,821 Marshall Isle,Manor,78653
+EXT0022,Michael,Bryant,12-Apr-2004,M,210-301-1850,3352 Case Via Apt. 732,Kyle,78640
+EXT0023,Erin,Burke,16-Dec-1981,F,830-478-7180,4125 Garcia Lock Apt. 191,Pflugerville,78660
+EXT0024,Randall,Bush,26-Dec-2001,M,325-480-3051,305 W 45 St,Austin,78705
+EXT0025,David,Campos,25-Feb-1964,M,979-372-8278,34056 Matthew Glens,Austin,78705
+EXT0026,Alicia,Cannon,14-Mar-1978,F,737-701-9673,65920 Stephanie Junctions,Georgetown,78626
+EXT0027,Sarah Melissa,Carney,17-Jul-1963,F,361-417-7283,0574 Micheal Spurs,Cedar Park,78613
+EXT0028,Taylor,Carrillo,06-Jan-1998,F,512-686-6972,19573 Gina Viaduct Suite 957,Buda,78610
+EXT0029,Dennis,Carrillo,18-Sep-1940,M,979-819-3803,597 Manning Radial Apt. 256,Kyle,78640
+EXT0030,James,Carteer,26-Aug-1958,M,512-528-9691,35034 Huber Shore Suite 097,Cedar Park,78613
+EXT0031,Jaclynn,Chase,22-Feb-1947,F,512-870-9062,161 Javier Shores,Round Rock,78664
+EXT0032,Jessica,Cole,27-May-2005,F,361-215-5340,5268 Koch Hollow,Manor,78653
+EXT0033,Joseph Gordon,Collins,23-Jul-1939,M,361-222-7955,7668 Walter Valleys,Hutto,78634
+EXT0034,Adam Strickland,Collins,13-Mar-1976,M,512-667-7415,7983 Miles Cliff,Kyle,78640
+EXT0035,David T.,Colon,28-Aug-1936,M,512-418-1377,581 Meza Causeway,Round Rock,78664
+EXT0036,Kristina,Conway,22-Jun-1962,F,830-323-6633,329 Karen Village,Pflugerville,78660
+EXT0037,Amanda Maren,Cook,20-Nov-1953,F,737-702-2143,34235 Amanda Meadows,Georgetown,78626
+EXT0038,Lisa Joan,Cooper,07-Nov-1963,F,254-588-6793,42853 Kevin Highway Suite 175,Georgetown,78626
+EXT0039,Steven Michael,Cooper,26-Sep-1957,M,512-967-3415,4611 Wilson Cliffs,Cedar Park,78613
+EXT0040,Ashley,Cordova,20-Aug-1949,F,361-835-6079,90652 Coleman Rapids Apt. 232,Austin,73301
+EXT0041,Erik,Crawford,06-Apr-1943,M,737-312-7974,3629 Gray Field,Leander,78641
+EXT0042,Nathan,Crawford,03-May-1939,M,512-644-8132,100 Miles Street,Austin,78705
+EXT0043,Geoffrey,Cunningham,25-Nov-1988,M,737-256-4089,96678 Harmon Dale,Cedar Park,78613
+EXT0044,Courtney,Davis,24-May-1952,F,325-263-7258,0235 Sara Mews,Buda,78610
+EXT0045,Nathan Ben,Day,31-Jan-1995,M,512-736-8939,8921 Chapman Creek,Leander,78641
+EXT0046,Elizabeth,Dillon,04-Nov-1943,F,,4663 Kristin Port,Manor,78653
+EXT0047,Brian,Dominguez,02-Jul-1947,M,254-580-6882,244 Nicholas Skyway Apt. 776,Cedar Park,78613
+EXT0048,Jon,Donovan,10-Jan-1935,M,512-660-6970,05082 Munoz Causeway,Manor,78653
+EXT0049,Daniel,Elliott,20-Nov-1958,M,361-208-2882,711 Stephanie Terrace,Buda,78610
+EXT0050,Micheal,Evans,26-Jan-1979,M,463-4554,3078 Lisa Forks,Kyle,78640
+EXT0051,Michelle,Ferguson,29-Mar-1975,F,,19214 Phyllis Harbors,Hutto,78634
+EXT0052,Rose,Fernandez,13-May-1993,F,210-720-2800,277 Cox Circles Suite 205,Leander,78641
+EXT0053,Marcus R.,Fernandez,17-Sep-1983,M,979-461-4411,378 Roth Well,Hutto,78634
+EXT0054,Robert Wilson,Fletcher,20-Jul-1997,M,737-221-9346,8606 Sean Centers,Leander,78641
+EXT0055,Joshua,Flynn,05-Jan-1966,M,254-445-1684,1081 Ronnie Junctions Apt. 086,Cedar Park,78613
+EXT0056,Kimberly,Fox,29-Jul-1998,F,512-554-9034,106 Christina Course,Round Rock,78664
+EXT0057,Elizabeth,Franklin,27-Apr-1965,F,210-360-6653,8137 Brown Square,Cedar Park,78613
+EXT0058,Allison,Franklin,31-Oct-1977,F,830-483-4884,2591 Rice Summit Apt. 926,Round Rock,78664
+EXT0059,Allen,Fry,06-Apr-1998,M,935-9135,14584 David Ville,Austin,73301
+EXT0060,Michael,Garcia,02-Feb-1966,M,210-206-5890,874 Grande St,Austin,73301
+EXT0061,Kimberly,Gibson,19-Mar-1941,F,737-814-4310,83096 Jennifer Crossing Suite 627,Buda,78610
+EXT0062,Donna R.,Gilbert,08-Jan-1947,F,361-719-7508,9450 Munoz Spurs,Round Rock,78664
+EXT0063,Richard,Glover,07-Jun-1962,M,,429 Paul Junction Suite 104,Kyle,78640
+EXT0064,Jessica,Gomez,12-Jan-1947,F,,596 Jason Ranch,Kyle,78640
+EXT0065,Jenny,Gonzales,11-Feb-1954,F,830-576-8012,0527 Robyn Valleys Apt. 838,Pflugerville,78660
+EXT0066,Diana,Green,07-May-1974,F,254-205-5660,220 Kelly Mount Suite 743,Manor,78653
+EXT0067,Erik,Grimes,24-Jan-1953,M,236-1902,118 Frank Crescent Suite 983,Pflugerville,78660
+EXT0068,James,Hall,10-Mar-1985,M,737-357-9602,755 Lisa Cliffs,Kyle,78640
+EXT0069,Ricky M,Hanna,08-Feb-1991,M,254-783-7552,437 Ramirez Avenue,Hutto,78634
+EXT0070,Michael Gregory,Hanson,01-Feb-1979,M,737-239-2604,352 Chelsea Freeway,Manor,78653
+EXT0071,Angela,Harmon,07-Jan-1998,F,210-390-6243,427 Melendez Falls Apt. 120,Leander,78641
+EXT0072,Maria,Harrington,01-Jul-1949,F,254-861-9482,743 Nicole Cove Apt. 471,Cedar Park,78613
+EXT0073,Jonathon Paul Allen,Hart,09-Aug-1945,M,979-694-3511,493 Kelsey Corners,Hutto,78634
+EXT0074,Briana,Harvey,19-Oct-1971,F,512-304-3952,08322 Mason Plains,Leander,78641
+EXT0075,Robert Brian,Harvey,18-May-1952,M,,4630 Alex Drive Suite 193,Georgetown,78626
+EXT0076,Kelly Kathleen,Henderson,21-Mar-1957,M,830-531-8218,468 Cooper Pike Suite 485,Pflugerville,78660
+EXT0077,Kathleen,Hernandez,10-Jun-1995,F,512-804-9351,33739 Jerry Station,Kyle,78640
+EXT0078,Tracy,Hernandez,19-Feb-1983,M,830-868-7064,7990 Forbes Stravenue,Austin,73301
+EXT0079,Scott,Hernandez,05-Sep-1934,M,210-419-1711,137 Salazar Views Suite 465,Hutto,78634
+EXT0080,Eric,Herrera,13-Dec-1985,M,737-438-1569,511 Merritt Underpass,Pflugerville,78660
+EXT0081,Steven,Hogan,23-May-1982,M,830-800-3720,32257 Timothy Circle Suite 282,Kyle,78640
+EXT0082,Rod,Holt,07-Mar-1992,M,512-853-3204,6550 Boyer Skyway Suite 468,Manor,78653
+EXT0083,Reginald,Hood,12-Jun-1987,M,830-883-3991,706 Zamora Estate,Buda,78610
+EXT0084,Jennifer,Hooper,15-Nov-1960,F,325-821-6881,54985 Fisher Village Suite 439,Georgetown,78626
+EXT0085,Linda B.,Horton,03-Jun-1962,F,254-915-7396,3402 Michael Circle,Austin,73301
+EXT0086,Benjamin N.,Hubbard,20-Feb-1962,M,512-941-9877,3062 Cameron Village,Hutto,78634
+EXT0087,Shawn T.,Jackson,27-Feb-1950,F,254-569-1573,580 Matthew Parks Suite 492,Austin,73301
+EXT0088,Carlos,Jacobs,10-Jun-1953,F,737-648-9025,938 Jennings Terrace,Austin,73301
+EXT0089,Hannah,James,27-Oct-1967,F,254-572-8066,418 James Inlet,Manor,78653
+EXT0090,Richard,James,08-Aug-1961,M,830-340-5234,582 Grape Port,Cedar Park,78613
+EXT0091,Nancy,Johns,18-Jun-1991,F,325-342-4493,6658 Christina Underpass,Georgetown,78626
+EXT0092,Jamie,Johnson,05-Feb-1969,M,325-992-4575,20034 Hahn Locks,Austin,73301
+EXT0093,Mike,Jones,31-Jul-2002,M,,260 Cabrera Mall,Kyle,78640
+EXT0094,Sean Z,Jones,09-Apr-1999,M,512-823-4573,5500 Jacob Rapid,Kyle,78640
+EXT0095,Jacqueline,Jones,14-Dec-1980,F,512-435-6753,394 Timothy Estates,Georgetown,78626
+EXT0096,Todd,Jones,10-Jun-1959,M,210-468-8280,09606 Sanchez Island,Leander,78641
+EXT0097,David Sean,Kennedy,17-Aug-1983,M,512-684-2607,01050 Adam Passage,Buda,78610
+EXT0098,Johnny,King,27-Oct-2001,M,325-852-2533,26882 Brown Courts,Pflugerville,78660
+EXT0099,Joshua,Kirk,12-Aug-1938,F,,85454 Holmes Skyway,Georgetown,78626
+EXT0100,Jason P,Lane,27-Feb-1955,M,210-859-7960,782 Fitzgerald Spring Apt. 420,Round Rock,78664
+EXT0101,Nathan,Le,15-Oct-1944,M,,739 Rogers Ln,Leander,78641
+EXT0102,Anne Catherine,Li,31-Dec-1983,F,254-694-8999,5082 Tyler Cliff,Round Rock,78664
+EXT0103,Peter,Lopez,07-Oct-1988,M,979-376-9852,78860 White Cliffs,Leander,78641
+EXT0104,Jason Michael Parker,Mahoney,09-Aug-1954,M,,109 Sarah Inlet,Buda,78610
+EXT0105,Rich,Mann,03-Feb-1972,M,271-5675,701 Beasley Dam,Kyle,78640
+EXT0106,Alex,Martinez,10-Mar-1967,M,979-285-3261,2806 Tate Stream,Cedar Park,78613
+EXT0107,Sandra,Martinez,19-Jun-1939,F,512-879-3643,7394 Fox Port Suite 373,Manor,78653
+EXT0108,Laura,Mason,23-Apr-1968,F,979-822-2801,01018 Jordan Gardens,Georgetown,78626
+EXT0109,Deborah,Matthews,21-Sep-1951,F,,8529 Castillo Island,Pflugerville,78660
+EXT0110,Christian,Mccarthy,31-Jul-1967,F,254-368-1435,3226 Marie Ridge Apt. 933,Leander,78641
+EXT0111,Samuel,Mcintyre,22-Mar-1945,M,,794 Kimberly Extensions,Pflugerville,78660
+EXT0112,Debra,Mclean,11-Jul-1935,F,210-218-1118,596 Susan Spur,Leander,78641
+EXT0113,Jessica,Mcneil,03-Jan-1951,F,254-462-7215,6227 Michael Road,Georgetown,78626
+EXT0114,Joshua Austin,Miles,26-Mar-1999,M,254-935-5664,540 Jack Fort Apt. 659,Manor,78653
+EXT0115,Brian,Miller,27-Jun-1973,M,254-913-3125,33420 Smith Estates Suite 661,Buda,78610
+EXT0116,Brian,Miller,07-Nov-1989,M,737-671-6250,06196 Adam Street,Cedar Park,78613
+EXT0117,James,Mills,17-Jan-1984,M,,5595 Beverly Points,Cedar Park,78613
+EXT0118,Joanna,Molina,31-May-1999,F,737-812-8275,04037 Wilson Cliff,Pflugerville,78660
+EXT0119,Andrew Michael,Montoya,15-Jan-1954,M,361-339-5682,76417 Love Springs,Buda,78610
+EXT0120,Timothy,Moon,01-Aug-1994,M,254-208-1809,80870 Elizabeth Ports Suite 075,Kyle,78640
+EXT0121,Paige,Mooney,02-Apr-1953,F,325-666-3042,60986 Jill Squares,Austin,73301
+EXT0122,Jeremy,More,12-Jun-1978,M,,0606 Wiggins Wall,Round Rock,78664
+EXT0123,Alexandra,Morgan,28-Dec-1944,F,361-687-5110,840 Eric Fields,Leander,78641
+EXT0124,Amanda,Morgan,12-Sep-1950,F,512-475-2919,588 Matthew Cove,Leander,78641
+EXT0125,Dick,Morgan,21-Oct-1977,M,512-678-9845,4762 Martinez Fork,Cedar Park,78613
+EXT0126,John,Morris,01-Oct-1980,M,737-210-3562,5540 Sullivan Run,Cedar Park,78613
+EXT0127,David Todd,Morris,11-Nov-1974,M,830-805-9351,53827 Christopher Plains,Round Rock,78664
+EXT0128,Linda,Mullen,03-Feb-1947,F,602-4002,3806 Elizabeth Burg,Austin,73301
+EXT0129,Nancy Tracy,Murray,29-Aug-2000,F,210-850-4614,68700 Santiago Shoal Suite 707,Buda,78610
+EXT0130,Stacy,Navarro,15-May-1993,F,512-460-6918,7188 Catherine Ramp,Hutto,78634
+EXT0131,Linda,Navarro,26-Jul-1936,F,361-363-3887,377 Gonzalez Stream,Austin,73301
+EXT0132,Alicia,Nelson,13-Dec-1965,F,512-973-9529,0008 Douglas Canyon,Cedar Park,78613
+EXT0133,Julie,Newman,25-Jan-1946,F,979-676-9936,12844 Sarah Via Street,Cedar Park,78613
+EXT0134,Vanessa,Nichols,11-Sep-1960,F,,2192 Charles Skyway,Buda,78610
+EXT0135,Joshua,Noble,24-Aug-1974,M,210-253-2902,5791 Luke Roads Apt. 870,Hutto,78634
+EXT0136,Leslie,Norton,10-Oct-1948,F,512-569-5944,634 Tracey Centers Apt. 934,Cedar Park,78613
+EXT0137,Joseph,Olson,13-Mar-1986,M,361-806-8829,8543 Nicole Vista Suite 269,Cedar Park,78613
+EXT0138,Stacey B.,Ortega,25-Feb-1987,F,737-480-6134,872 Steven Village,Buda,78610
+EXT0139,Dustin D.,Palmer,10-Apr-1988,M,210-675-5816,1077 Julie Crest,Georgetown,78626
+EXT0140,William,Patterson,07-May-1987,M,,2381 Claudia Islands,Round Rock,78664
+EXT0141,Cynthia,Paul,03-Aug-1939,F,361-700-2448,288 Chad Walks Suite 924,Kyle,78640
+EXT0142,Mary,Payne,23-Jan-1945,F,210-233-9684,561 Odom Loaf Suite 148,Hutto,78634
+EXT0143,Patricia,Peters,13-Dec-1996,F,361-891-6897,48011 Schneider Divide Apt. 238,Round Rock,78664
+EXT0144,Aaron,Peters,17-Mar-1964,M,,79999 Mack Circle,Kyle,78640
+EXT0145,Elizabeth,Phelps,16-Apr-1988,F,361-722-4488,275 Marshall Bridge Apt. 836,Pflugerville,78660
+EXT0146,Christopher,Phillips,18-Jan-2002,M,979-797-3143,0108 Stephens Village Suite 035,Leander,78641
+EXT0147,Kimberly,Phillips,14-Dec-1951,F,737-698-5015,952 Dennis Locks Apt. 016,Cedar Park,78613
+EXT0148,George,Philllips,05-Mar-1975,M,325-896-3341,212 Sydney Plaza,Round Rock,78664
+EXT0149,Joshua,Poole,16-Aug-1971,M,512-510-7343,886 Parks Rue,Austin,73301
+EXT0150,Michelle,Ray,21-Jul-2000,F,830-929-6042,2831 Trujillo Parkways,Kyle,78640
+EXT0151,Ashley,Ray,28-Jun-1941,F,512-304-6500,370 Thomas Key,Hutto,78634
+EXT0152,Justin,Raymond,11-Sep-1997,M,254-775-5543,785 Roberts Roads,Round Rock,78664
+EXT0153,Amy Amanda,Reynolds,19-Apr-1997,F,737-878-9279,22193 Richardson Hollow Apt. 318,Austin,73301
+EXT0154,Amanda,Richardson,26-Sep-1953,F,210-918-5817,70179 Kyle Rue,Manor,78653
+EXT0155,Isabel,Richardson,19-Feb-1972,F,325-695-9199,0295 Zachary Roads,Pflugerville,78660
+EXT0156,Elizabeth,Riggs,23-May-1939,F,737-615-6864,91787 Aaron Crest,Leander,78641
+EXT0157,Linda,Right,10-Jul-1969,F,,50040 Allen Port,Leander,78641
+EXT0158,Tony,Robles,02-Jul-1968,M,,0847 Garrett Mountains Suite 488,Austin,73301
+EXT0159,Victoria,Rodriguez,01-Aug-1948,F,737-311-3265,302 David Centers Suite 351,Leander,78641
+EXT0160,Francisco,Rodriguez,14-Aug-1979,M,210-974-9090,657 Hunter Circles Suite 601,Kyle,78640
+EXT0161,Josh,Ruiz,08-Dec-1948,M,512-694-1265,1753 Hall Divide,Georgetown,78626
+EXT0162,Nancy,Russo,29-May-1974,F,979-488-4029,27787 Hannah Alley,Hutto,78634
+EXT0163,Carolyn,Sanchez,29-Jan-1991,F,737-285-7209,86097 Christine Walks,Cedar Park,78613
+EXT0164,Cynthia,Sandoval,27-May-1941,F,254-929-4866,8416 Mccarthy Prairie,Cedar Park,78613
+EXT0165,Sam,Schwartz,23-Aug-1963,M,512-680-2828,836 Crescent Street,Manor,78653
+EXT0166,Diana,Shaw,11-Mar-1993,F,830-638-2465,884 Mia Islands Apt. 606,Buda,78610
+EXT0167,James,Simpson,22-Jun-1934,M,361-226-2636,9952 Jason Harbors Suite 365,Georgetown,78626
+EXT0168,Jacob,Smith,03-Nov-1979,M,830-390-1420,94176 Emma Prairie,Austin,73301
+EXT0169,Martin,Smith,04-Jul-1947,M,979-914-3408,3574 Jacobs Corners,Georgetown,78626
+EXT0170,Nickie,Smith,17-Feb-1962,F,512-754-4729,7410 Four Corners,Round Rock,78664
+EXT0171,Michele ,Smith,10-Jan-1990,F,512-573-9877,5390 Vista Pass,Georgetown,78626
+EXT0172,Kimberly,Soto,07-Aug-1990,F,325-503-5962,65257 Collier Plain Apt. 387,Georgetown,78626
+EXT0173,April S.,Sparks,23-Apr-1981,F,830-902-5267,479 Theresa Ports Apt. 839,Manor,78653
+EXT0174,James,Spears,22-Jan-1977,M,361-840-6031,406 Elizabeth Causeway,Cedar Park,78613
+EXT0175,Melissa,Starck,13-Dec-2004,F,830-477-2696,09436 Paul Ports Apt. 822,Austin,73301
+EXT0176,Edward,Stevens,02-Dec-1996,M,830-409-5706,49002 Day Mission,Pflugerville,78660
+EXT0177,Teresa,Stevenson,22-Oct-1980,F,254-341-2150,369 Angela Bridge,Georgetown,78626
+EXT0178,Christine,Stout,10-Oct-1983,F,325-803-4152,2848 Cole Ridge,Round Rock,78664
+EXT0179,Tara,Sullivan,13-May-1992,F,830-551-9036,368 Jeremiah Vista,Buda,78610
+EXT0180,Christopher,Swanson,09-Jun-1999,M,830-848-4994,85915 Michelle Ramp,Hutto,78634
+EXT0181,Donna T.,Thompson,04-May-1994,F,512-276-4658,391 Hoffman Lodge Suite 582,Hutto,78634
+EXT0182,Philip,Thompson,14-Sep-1967,M,243-3085,70587 Harris Forest Suite 982,Georgetown,78626
+EXT0183,Joseph,Tran,11-Apr-1973,M,979-719-3322,08709 Lee Squares,Kyle,78640
+EXT0184,Edward R.,Underwood,25-Jul-1937,M,361-689-8141,430 Carter Island,Manor,78653
+EXT0185,Jack Richard,Vance,21-Oct-1968,M,361-882-3566,93806 Veronica Junctions,Round Rock,78664
+EXT0186,Micheal,Vasquez,04-Feb-1984,M,512-837-4086,503 Taylor Island Apt. 375,Round Rock,78664
+EXT0187,Kathy,Vega,05-Aug-1935,F,979-307-6014,6619 Bowman Station Apt. 041,Buda,78610
+EXT0188,Drew,Walker,21-Oct-1956,M,512-600-7002,6332 Matthew Manor,Manor,78653
+EXT0189,Michelle,Warren,15-Jun-1974,F,254-974-4859,50 Choi Glens,Manor,78653
+EXT0190,Vickie,Weaver,23-Oct-1976,F,830-284-2424,2656 Catherine Parks,Round Rock,78664
+EXT0191,Maria,Webb,28-Jun-1972,F,361-836-5973,9777 Susan Lodge,Kyle,78640
+EXT0192,Erin Dawn,Weber,20-Jun-1981,F,254-389-3401,13428 Downs Centers Apt. 284,Round Rock,78664
+EXT0193,Michael,Wells,21-Oct-1962,M,512-369-3035,992 English Forges,Round Rock,78664
+EXT0194,Danny Wilson,Wiggins,11-Aug-1982,M,737-777-5717,505 Frederick Orchard,Cedar Park,78613
+EXT0195,John R.,Williams,01-Nov-1951,M,979-432-2529,292 Myers Club,Kyle,78640
+EXT0196,Christine,Williams,05-Aug-1934,F,830-215-9694,3070 Hendricks Stream,Pflugerville,78660
+EXT0197,Sam,Williams,13-Oct-1955,F,512-318-3030,312 Cross Courts,Leander,78641
+EXT0198,Mary,Wilson,15-Feb-1979,F,254-345-7863,41423 Martin Motorway,Round Rock,78664
+EXT0199,Karen,Wise,11-Apr-1938,F,737-577-2770,97402 Lopez Manors,Hutto,78634
+EXT0200,Roberta,Wood,24-Jun-1949,F,669-3603,3016 Spence Rapids,Austin,73301
+EXT0201,Melissa,Wood,16-Jul-1961,F,210-724-9451,75472 Williams Crest,Cedar Park,78613
+EXT0202,Brian Scott,Woods,22-Jun-2004,M,979-943-4649,26959 Nichols Wells,Cedar Park,78613
+EXT0203,Regina,Woods,07-Jan-1948,F,830-652-0008,6136 Money Green,Austin,73301
+EXT0204,Tiffany,Wright,31-Oct-1978,F,979-665-8869,864 Jessica Ports,Leander,78641
+EXT0205,Elijah Roman,Wright,10-Apr-1976,M,254-386-9438,1301 Colin Hollow Apt. 635,Pflugerville,78660
+EXT0206,Madison,Wu,26-Nov-1936,F,271-8923,7306 Hines View Apt. 215,Manor,78653
+EXT0207,Chris,Young,15-Mar-1967,F,512-557-3967,9829 Sparks Corner,Pflugerville,78660
+EXT0208,Elizabeth,Zhang,16-Aug-1948,F,979-663-7854,79255 Shepherd Freeway,Austin,73301
+EXT0209,Lisa,Zimmerman,05-Sep-1994,F,830-595-3194,1924 Jennifer Summit,Manor,78653

@@ -1,0 +1,29 @@
+# TC: Modified version of the official compose config at Docker hub https://hub.docker.com/_/postgres
+
+services:
+  db:
+    image: postgres
+    restart: no
+    shm_size: 64mb
+    volumes:
+      - ./data:/data
+      - ./src:/src
+    post_start:
+      - command: ["sh", "-c", "apt update -y && apt install -y python3 && apt install -y postgresql-plpython3-17"]
+      - command: ["sh", "-c", '/src/build.sh']
+#   Never add environmental variables like this for a project with real data
+    environment:
+      POSTGRES_PASSWORD: localonly
+      POSTGRES_USER: hca_ticket
+      POSTGRES_DB: hca_ticket
+#   This is an example of how to add local env secrets in a project with real data
+#    env_file:
+#      - ./.env
+    ports:
+      - "5432:5432"
+
+  adminer:
+    image: adminer
+    restart: no
+    ports:
+      - 8080:8080
