@@ -89,7 +89,7 @@ The latest iteration of matching [choices](004_scoring.sql) I ended at is below:
 
 **Unconvincing Features**: Other criteria were considered, like `Street Name`, `Street Number`, etc - these did not produce matches that were convincing, because Name and DOB were deviant, and there is a possibility of sibling/married data in this dataset.
 
-**Unused Features**: `middle initial` was discarded due to lack of data. `area code`, `city`, and similar data were not useful - logically speaking patients in the greater Austin area would migrate between these regions
+**Unused Features**: `middle initial` was discarded due to lack of data. `area code`, `city`, and similar data were not useful - logically speaking patient the greater Austin area would migrate between these regions
 
 **Presumption of realism**: Some of the data is very unlikely to exist in a natural sample (below). The chance of having data entry errors on month of birth, sex, phone number, and street is very low for a dataset of this size. So is the possibility of a random collision of attributes this similar to eachother.
 
