@@ -89,7 +89,11 @@ The latest iteration of matching [choices](004_scoring.sql) I ended at is below:
 
 **Unconvincing Features**: Other criteria were considered, like `Street Name`, `Street Number`, etc - these did not produce matches that were convincing, because Name and DOB were deviant, and there is a possibility of sibling/married data in this dataset.
 
-**Unused Features**: `middle initial` was discarded due to lack of data. `area code`, `city`, and similar data were not useful - logically speaking candidates in the greater Austin area would migrate between these regions
+**Unused Features**: `middle initial` was discarded due to lack of data. `area code`, `city`, and similar data were not useful - logically speaking patients in the greater Austin area would migrate between these regions
+
+**Presumption of realism**: Some of the data is very unlikely to exist in a natural sample (below). The chance of having data entry errors on month of birth, sex, phone number, and street is very low for a dataset of this size. So is the possibility of a random collision of attributes this similar to eachother.
+
+<img height="350" src="docs/trap_data.png" width="250"/>
 
 ----
 
@@ -102,7 +106,7 @@ _This step was not completed. It would be my first step in a real-world ticket_.
 > * Quick call to gather background from **stakeholder** 
 >   * What is the purpose of joining this data?
 >     * **risk**: What is the cost of matching patients incorrectly? 
->     * **gain**: What do we gain by matching candidates correctly?
+>     * **gain**: What do we gain by matching patients correctly?
 >   * Who is the subject matter expert I can talk to about this data if I have questions?
 >   * Is this a one-off task or will we be repeating this exercise in the future?
 >     * If lots of future data is coming, we will need to incrementalize the ingest. 
